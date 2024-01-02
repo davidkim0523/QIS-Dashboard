@@ -38,7 +38,8 @@ import streamlit as st
 
 #%%
 # os.chdir('C:\\Users\\USER\\Desktop\\Python')
-df = pd.read_feather('qis_df.feather')
+df = pd.read_feather('https://github.com/davidkim0523/QIS-Dashboard/blob/main/qis_df.feather')
+
 
 strat_name = ['Equity Beta', 'Dynamic Put Ratio', 'Vol Roll on Rate', 'Bond Momentum',
               'FX Carry', 'Commodity Carry', 'Commodity Momentum', 'Commodity Value',
